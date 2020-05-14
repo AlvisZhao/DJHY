@@ -1,0 +1,80 @@
+<SearchInput></SearchInput>
+<view class="index_swiper">
+	<swiper
+	 autoplay="true"
+	 interval="3000"
+	 circular
+	 indicator-dots
+	>
+		<swiper-item>
+			<navigator>
+				<image mode="widthFix" src="//aecpm.alicdn.com/simba/img/TB1XotJXQfb_uJkSnhJSuvdDVXa.jpg"></image>
+			</navigator>
+		</swiper-item>
+		<swiper-item>
+			<navigator>
+				<image mode="widthFix" src="//img.alicdn.com/tfs/TB1uCZQDoY1gK0jSZFMXXaWcVXa-520-280.jpg_q90_.webp"></image>
+			</navigator>
+		</swiper-item>
+		<swiper-item>
+			<navigator>
+				<image mode="widthFix" src="//aecpm.alicdn.com/simba/img/TB1JNHwKFXXXXafXVXXSutbFXXX.jpg"></image>
+			</navigator>
+		</swiper-item>
+	</swiper>
+</view>
+
+<Tabs tabs="{{tabs}}" bindtabsItemChange="handleTabsItemChange">
+	<block wx:if="{{tabs[0].isActive}}">
+		<navigator>
+			<image mode="widthFix" src="/images/ya.jpg" />
+		</navigator>
+	</block>
+	<block wx:elif="{{tabs[1].isActive}}">
+		<navigator>
+			<image mode="widthFix" src="/images/ya.jpg" />
+		</navigator>
+	</block>
+	<block wx:elif="{{tabs[2].isActive}}">
+		<navigator>
+			<image mode="widthFix" src="/images/ya.jpg" />
+		</navigator>
+	</block>
+	<block wx:elif="{{tabs[3].isActive}}">
+		<navigator>
+			<image mode="widthFix" src="/images/ya.jpg" />
+		</navigator>
+	</block>
+	<block wx:elif="{{tabs[4].isActive}}">
+		<navigator>
+			<image mode="widthFix" src="/images/ya.jpg" />
+		</navigator>
+	</block>
+	<block wx:if="{{tabs[5].isActive}}">
+		<navigator>
+			<image mode="widthFix" src="/images/ya.jpg" />
+		</navigator>
+	</block>
+</Tabs>
+
+<!-- <view class="service_button">
+	<navigator>
+		<view class="home_treatment">家庭诊疗</view>
+	</navigator>
+	<navigator>
+		<view class="online_interrogation">线上问诊</view>
+	</navigator>
+	<navigator>
+		<view class="vip">VIP定制</view>
+	</navigator>
+	<navigator>
+		<view class="store">线上商城</view>
+	</navigator>
+	<navigator>
+		<view class="famous_doctor">名医直播</view>
+	</navigator>
+	<navigator>
+		<view class="benefits">福利专区</view>
+	</navigator>
+</view> -->
+

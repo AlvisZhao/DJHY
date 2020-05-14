@@ -1,0 +1,44 @@
+.notice navigator .text {
+  font-weight: bold;
+  border-bottom: 5rpx solid #ccc;
+  border-top: 5rpx solid #ccc;
+  padding: 10rpx 10rpx;
+}
+.button {
+  padding: 10rpx 0;
+  display: flex;
+}
+.button navigator .recommend {
+  flex: 1;
+  padding: 0 32rpx;
+  font-weight: bold;
+  font-size: 28rpx;
+}
+.button navigator .popular {
+  flex: 1;
+  padding: 0 32rpx;
+  font-weight: bold;
+  font-size: 28rpx;
+  border-left: 3rpx solid #ccc;
+}
+.button navigator .selected {
+  flex: 1;
+  padding: 0 32rpx;
+  font-weight: bold;
+  font-size: 28rpx;
+  border-left: 3rpx solid #ccc;
+}
+.button navigator .dentist {
+  flex: 1;
+  padding: 0 32rpx;
+  font-weight: bold;
+  font-size: 28rpx;
+  border-left: 3rpx solid #ccc;
+}
+.button navigator .feedback {
+  flex: 1;
+  padding: 0 32rpx;
+  font-weight: bold;
+  font-size: 28rpx;
+  border-left: 3rpx solid #ccc;
+}

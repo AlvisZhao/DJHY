@@ -1,0 +1,56 @@
+<SearchInput></SearchInput>
+<view class="notice">
+	<navigator>
+		<view class="text">
+			公告
+		</view>
+	</navigator>
+</view>
+<Info info="{{info}}" bindinfoItemChange="handleInfoItemChange">
+	<block wx:if="{{info[0].isActive}}">
+		<navigator>
+			<image mode="widthFix" src="/images/zixun.jpg" />
+		</navigator>
+	</block>
+	<block wx:elif="{{info[1].isActive}}">
+		<navigator>
+			<image mode="widthFix" src="/images/zixun.jpg" />
+		</navigator>
+	</block>
+	<block wx:elif="{{info[2].isActive}}">
+		<navigator>
+			<image mode="widthFix" src="/images/zixun.jpg" />
+		</navigator>
+	</block>
+	<block wx:elif="{{info[3].isActive}}">
+		<navigator>
+			<image mode="widthFix" src="/images/zixun.jpg" />
+		</navigator>
+	</block>
+	<block wx:if="{{info[4].isActive}}">
+		<navigator>
+			<image mode="widthFix" src="/images/zixun.jpg" />
+		</navigator>
+	</block>
+</Info>
+<!-- <view class="button">
+	<navigator>
+		<view class="recommend">推荐</view>
+	</navigator>
+	<navigator>
+		<view class="popular">热门</view>
+	</navigator>
+	<navigator>
+		<view class="selected">精选病例</view>
+	</navigator>
+	<navigator>
+		<view class="dentist">牙医圈</view>
+	</navigator>
+	<navigator>
+		<view class="feedback">治疗反馈</view>
+	</navigator>
+</view> -->
+<view class="content">
+
+</view>
+

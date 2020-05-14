@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/notice/notice",
+    "pages/message/message",
+    "pages/user/user"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#2bcbf5",
+    "navigationBarTitleText": "你身边的牙医管家",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#ff2d4a",
+    "backgroundColor": "",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/icon/shouye1.png",
+      "selectedIconPath": "/icon/shouye.png"
+    },
+    {
+      "pagePath": "pages/notice/notice",
+      "text": "资讯",
+      "iconPath": "/icon/zixun.png",
+      "selectedIconPath": "/icon/zixun1.png"
+    },
+    {
+      "pagePath": "pages/message/message",
+      "text": "消息",
+      "iconPath": "/icon/xiaoxi.png",
+      "selectedIconPath": "/icon/xiaoxi1.png"
+    },
+    {
+      "pagePath": "pages/user/user",
+      "text": "我的",
+      "iconPath": "/icon/tubiaozhizuomoban1.png",
+      "selectedIconPath": "/icon/tubiaozhizuomoban.png"
+    }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

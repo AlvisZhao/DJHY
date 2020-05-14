@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "SearchInput":"../../components/SearchInput/SearchInput",
+    "Info":"../../components/Info/Info"
+  },
+  "navigationBarTitleText": "资讯"
+}
